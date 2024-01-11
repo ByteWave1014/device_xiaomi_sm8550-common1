@@ -151,6 +151,9 @@ ro.vendor.net.enable_dual_wifi=1
 persist.vendor.radio.dynamic_sar=1
 persist.vendor.radio.game_hand=1
 
+# SKUs
+import /odm/etc/build_${ro.boot.hardware.sku}.prop
+
 # Sensors
 persist.vendor.sensor.onetrack=true
 persist.vendor.sensor.deviceorient=true
